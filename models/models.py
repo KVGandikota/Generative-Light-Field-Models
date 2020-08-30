@@ -17,7 +17,7 @@ class View(nn.Module):
 
     
 class WAE_lf_7x7(nn.Module):
-    def __init__(self, z_dim=180):
+    def __init__(self, z_dim=160):
         super(WAE_lf, self).__init__()
         self.z_dim = z_dim
         self.encoder_s1x = nn.Sequential(
@@ -160,7 +160,7 @@ class WAE_lf_7x7(nn.Module):
         return x_recon, z    
         
 class WAE_lf_5x5(nn.Module):
-    def __init__(self, z_dim=180):
+    def __init__(self, z_dim=160):
         super(WAE_lf, self).__init__()
         self.z_dim = z_dim
         self.encoder_s1x = nn.Sequential(
