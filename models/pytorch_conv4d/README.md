@@ -1,5 +1,5 @@
 # pytorch-conv4d
-We use Original implementattion of https://github.com/timothygebhard/pytorch-conv4d/
+4D convolution in pytorch. We use original implementattion of https://github.com/timothygebhard/pytorch-conv4d/
 
 # pytorch-conv4d
 This repository contains a simple PyTorch port of the [conv4d for TensorFlow repository](https://github.com/funkey/conv4d) by Jan Funke. It consists essentially of a single class, `Conv4d`, which provides a (still rather rudimentary) PyTorch layer for 4-dimensional convolutions. Like the original, it works by performing and stacking several 3D convolutions (see the original repository for a more detailed explanations).
